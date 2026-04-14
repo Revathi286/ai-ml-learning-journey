@@ -1,13 +1,11 @@
-# DATA CONTAINERS
-name = "Developer_Alpha"
-age = 24
-marks = [85, 92, 78, 95, 88]
 
-# PROCESSING LOOP
+name = "REVATHI"
+age = 24
+marks = [75, 99, 90, 65, 80]
+
 for i in marks:
     print(f"Validating Data Point: {i}")
 
-# ANALYTICAL FUNCTION
 def analyze_numbers(numbers):
     min_val = min(numbers)
     max_val = max(numbers)
