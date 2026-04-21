@@ -2,7 +2,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# Sample data
+
 data = {
     'Age': [21, 22, 23, 24, 25],
     'Score': [80, 82, 88, 92, 95]
@@ -10,7 +10,6 @@ data = {
 
 df = pd.DataFrame(data)
 
-# Heatmap
 sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
 
 plt.title("Feature Correlation Map")
